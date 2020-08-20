@@ -1,5 +1,5 @@
 folder('pipeline') {}
-job('pipeline/example2') {
+job('pipeline/example') {
   steps {
       shell('echo Hello World!')
   }
